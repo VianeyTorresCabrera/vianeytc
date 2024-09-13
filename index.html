@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang='es'>
+  <head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>💼 Vianey Torres</title>
+    <link rel='stylesheet' href='assets/css/style.css'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav container">
+        <a href="/" class="logo">           
+          <div class="logo_png"><i class='bx bxs-terminal'></i></div>
+        </a>
+
+        <div id="menu" class="menu clase2 clase3">
+          <button type="button" id="btnClose" class="btn btn-close" aria-label="cerrar">            
+            <i class='bx bx-x'></i>
+          </button>
+
+          <ul class='menu__list'>
+            <li class='menu__item'>
+              <a href='#hero' class='menu__link active'>Inicio</a>
+            </li>
+            <li class='menu__item'>
+              <a href='#about' class='menu__link'>Acerca de Mí</a>
+            </li>
+            <li class='menu__item'>
+              <a href='#skills' class='menu__link'>Habilidades</a>
+            </li>
+            <li class='menu__item'>
+              <a href='#projects' class='menu__link'>Proyectos</a>
+            </li><!--
+            <li class='menu__item'>
+              <a href='#reviews' class='menu__link'>Reseñas</a>
+            </li> -->
+            <li class='menu__item'>
+              <a href='#contact' class='menu__link'>Contacto</a>
+            </li>
+          </ul>
+
+          <a href='assets/docs/TorresVianey_cv.pdf' class="btn btn-resume" target="_blank">
+            Descargar C.V.
+          </a>
+        </div>
+
+        <div class="btns">
+          <button type="button" id="btnOpen" class="btn btn-open" aria-label="abrir">
+            <i class='bx bx-menu'></i>
+          </button>
+
+          <button type="button" id="btnTheme" class="btn btn-theme" aria-label="theme">
+            <i class='bx bxs-moon'></i>
+          </button>
+
+          <div class="btn-lang">
+            <a href='/en'>En</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+<!-- ======= Hero Section ======= -->
+      <section id="hero" class="section hero">
+        <div class='container hero__container'>
+
+          <div class="hero__content-img">
+            <img src='assets/img/coat.png' class="hero__img" alt='profile'>
+          </div>
+
+          <div class="hero__content-body">
+            <h1 class="hero__title"><span class="hero__animation"><span class="hero__name">Vianey Torres</span></h1>
+            <p class="hero__description">
+              <span id="typing"></span>
+            </p>
+
+            <ul class='social'>
+              <li class='social__item'>
+                <a href='https://www.linkedin.com/in/vianey-torres-cabrera-b6882985' class='social__link' aria-label="linkedin" target="_blank">
+                  <i class='bx bxl-linkedin'></i>
+                </a>
+              </li>
+              <li class='social__item'>
+                <a href='https://github.com/VianeyTorresCabrera' class='social__link' aria-label="github" target="_blank">
+                  <i class='bx bxl-github'></i>
+                </a>
+              </li>
+              <li class='social__item'>
+                <a href='https://twitter.com/cabrera_to84642' class='social__link' aria-label="twitter" target="_blank">
+                  <i class='bx bxl-twitter'></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+<!-- =======About Me Section ======= -->
+      <section id='about' class="section about">
+        <div class='container '>
+          <h2 class='section section__title'>Acerca de mí</h2>
+
+          <div class='about__content'>
+            <p>¡Hola! Soy Vianey, Ingeniera en Sistemas Computacionales con experiencia en programación y diseño web. 
+              <br><br>Destaco por mi capacidad para gestionar tareas eficientemente y resolver problemas complejos con creatividad.
+              Mis habilidades incluyen comunicación efectiva, trabajo en equipo y cumplimiento de plazos. 
+              <br><br>Estoy emocionada por contribuir con mi experiencia y habilidades a proyectos desafiantes y gratificantes.</p>            
+          </div>
+        </div>
+      </section>
+<!-- ======= Skills Section ======= -->
+      <section id='skills' class="section skills">
+        <div class='container'>
+          <h2 class='section section__title'>Habilidades</h2>
+
+          <div class='skills__content'>
+            <div class="skills__container">
+              <div class='skills__card'>
+                <div class="skills__icon">
+                  <img class="icon-bounce" src='assets/icons/html.svg' alt='html'>
+                </div>
+                <span class="skills__text">HTML</span>
+              </div>
+
+              <div class='skills__card'>
+                <div class="skills__icon">
+                  <img class="icon-pulse" src='assets/icons/css.svg' alt='html'>
+                </div>
+                <span class="skills__text">CSS</span>
+              </div>
+
+              <div class='skills__card'>
+                <div class="skills__icon">
+                  <img class="icon-swing" src='assets/icons/javascript.svg' alt='html'>
+                </div>
+                <span class="skills__text">JavaScript</span>
+              </div>
+
+              <div class='skills__card'>
+                <div class="skills__icon">
+                  <img class="icon-shake" src='assets/icons/git.svg' alt='html'>
+                </div>
+                <span class="skills__text">Git</span>
+              </div>
+
+              <div class='skills__card'>
+                <div class="skills__icon">
+                  <img class="icon-spin" src='assets/icons/react.svg' alt='html'>
+                </div>
+                <span class="skills__text">React</span>
+              </div>
+
+              <div class='skills__card'>
+                <div class="skills__icon">
+                  <img class="icon-blink" src='assets/icons/nodejs.svg' alt='html'>
+                </div>
+                <span class="skills__text">NodeJs</span>
+              </div>
+
+              <div class='skills__card'>
+                <div class="skills__icon">
+                  <img class="icon-zoomin" src='assets/icons/postgres.svg' alt='html'>
+                </div>
+                <span class="skills__text">Postgres</span>
+              </div>
+
+              <div class='skills__card'>
+                <div class="skills__icon">
+                  <img class="icon-wobble" src='assets/icons/postman.svg' alt='html'>
+                </div>
+                <span class="skills__text">Postman</span>
+              </div>
+
+
+            </div>
+            <div>
+              <h3 class="skills__subtitle">Habilidades Blandas</h3>
+
+              <ul class='skills__list'>
+                <li class='skills__item'>
+                  <i class='bx bx-check'></i>
+                  <span>Trabajo en equipo.</span>
+                </li>
+                <li class='skills__item'>
+                  <i class='bx bx-check'></i>
+                  <span>Comunicación.</span>
+                </li>
+                <li class='skills__item'>
+                  <i class='bx bx-check'></i>
+                  <span>Adaptabilidad.</span>
+                </li>
+                <li class='skills__item'>
+                  <i class='bx bx-check'></i>
+                  <span>Aprendizaje continuo.</span>
+                </li>
+                <li class='skills__item'>
+                  <i class='bx bx-check'></i>
+                  <span>Resolución de problemas.</span>
+                </li>
+                <li class='skills__item'>
+                  <i class='bx bx-check'></i>
+                  <span>Atención al detalle</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- ======= Projects Section ======= -->
+      <section id='projects' class="section projects">
+        <div class='container'>
+          <h2 class='section section__title'>Proyectos</h2>
+
+          <div class='projects__container'>
+            <div class='projects__card'>
+              <div class='project__img-container'>
+                <img src='./assets/img/ecomerce.png' alt='project1' class='projects__img'>
+
+                <div class="projects__links">
+                  <a href='https://github.com/VianeyTorresCabrera/entregable6_tcv/tree/main' target="_blank">Ver Código</a>
+                  <a href='https://ecademlostore-tcv.netlify.app/' target="_blank">Ver Proyecto</a>
+                </div>
+              </div>
+              <div class='projects__content'>
+                <h3 class='projects__title'>Ecomerce</h3>
+                <p class='projects__text'>Plantilla completa E-commerce para consumo de API</p>
+              </div>
+            </div>
+
+            <div class='projects__card'>
+              <div class='project__img-container'>
+                <img src='./assets/img/rick.png' alt='project1' class='projects__img'>
+
+                <div class="projects__links">
+                  <a href='https://github.com/VianeyTorresCabrera/entregable3_tcv'>Ver Código</a>
+                  <a href='https://rick-and-morty-tcv.netlify.app/'>Ver Proyecto</a>
+                </div>
+              </div>
+              <div class='projects__content'>
+                <h3 class='projects__title'>Rick and Morti</h3>
+                <p class='projects__text'>Consumo de API con React</p>
+              </div>
+            </div>
+
+            <div class='projects__card'>
+              <div class='project__img-container'>
+                <img src='./assets/img/pokeApi.png' alt='project1' class='projects__img'>
+
+                <div class="projects__links">
+                  <a href='https://github.com/VianeyTorresCabrera/entregable5_tcv'>Ver Código</a>
+                  <a href='https://entregable5-pokeapi-tcv.netlify.app/'>Ver Proyecto</a>
+                </div>
+              </div>
+              <div class='projects__content'>
+                <h3 class='projects__title'>PokeApi 3</h3>
+                <p class='projects__text'>Consumo de Api pokemon usando React</p>
+              </div>
+            </div>
+
+            <div class='projects__card'>
+              <div class='project__img-container'>
+                <img src='./assets/img/crudUsers.png' alt='project1' class='projects__img'>
+
+                <div class="projects__links">
+                  <a href='https://github.com/VianeyTorresCabrera/entregable4_tcv'>Ver Código</a>
+                  <a href='https://users-crud-tcv.netlify.app/'>Ver Proyecto</a>
+                </div>
+              </div>
+              <div class='projects__content'>
+                <h3 class='projects__title'>CRUD Users</h3>
+                <p class='projects__text'>Realizacion de un crud para Users realizando peticiones a la API</p>
+              </div>
+            </div>
+
+            <div class='projects__card'>
+              <div class='project__img-container'>
+                <img src='./assets/img/apiMoviesPostman.png' alt='project1' class='projects__img'>
+
+                <div class="projects__links">
+                  <a href='https://github.com/VianeyTorresCabrera/engregable5_test_tcv'>Ver Código</a>
+                  <a href='https://documenter.getpostman.com/view/21402642/2sA3rwNutF'>Ver Documentació</a>
+                </div>
+              </div>
+              <div class='projects__content'>
+                <h3 class='projects__title'>API Movies  </h3>
+                <p class='projects__text'>Creacion de Api movie y los tests con Jest</p>
+              </div>
+            </div>
+
+
+          </div>
+      </section>
+
+
+<!-- ======= Contact Section ======= -->
+      <section id='contact' class="section contact">
+        <h2 class='section section__title'>Contacto</h2>
+        <div class='container-form'>          
+            <div class="info-form">                
+                <p>Si tienes preguntas o dudas enviame un mensaje o un correo</p>
+                <a href="https://wa.me/525543017458?text=Hola%20quiero%20más%20información" target="_blank">
+                  <img src="./assets/icons/icons8-whatsapp-48.svg" alt="">
+                </a>
+                <a href="mailto:vian19_tc@hotmail.com"><i class="bx bx-envelope"></i> vian19_tc@hotmail.com</a>
+                <a href="#"><i class='bx bx-current-location' ></i></i>Edo.México, México</a>
+            </div>
+            <form action="https://formsubmit.co/vian19_tc@hotmail.com" method="post" class="contact_form">
+                <input type="text" name="nombre" placeholder="Tu Nombre" class="campo">
+                <input type="email" name="email" placeholder="Tu Email" class="campo">
+                <textarea name="mensaje" placeholder="Tu Mensaje..."></textarea>
+                <button type="submit" name="enviar"  class="btn-enviar">Enviar Mensaje</button>
+                <input type="hidden" name="_next" value="https://main--portafolio-vianey-torres.netlify.app/">
+                <input type="hidden" name="_captcha" value="false">
+            </form>   
+        </div>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="assets/js/index.js"></script>
+    
+  </body>
+</html>
